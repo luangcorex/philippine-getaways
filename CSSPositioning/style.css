@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+}
+div{
+	padding: 20px;
+}
+.grandparent{
+	background-color: skyblue;
+}
+.parent{
+	background-color: pink;
+}
+p{
+	position: static;
+	margin-left: 50px;
+	height: 100px;
+	/*margin-top: -20px;*/
+}
+input[name="Submit"]{
+	margin-left: 50px;
+}
+
+.grandparent{
+	position: fixed;
+	right: 50px;
+	left: 50px;
+}
+
+strong{
+	background:yellow;
+	position: absolute;
+	top: 10px;
+	left:10px;
+}
+

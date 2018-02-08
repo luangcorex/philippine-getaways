@@ -1,0 +1,41 @@
+strong{
+	background-color: yellow;
+	height: 20px;
+	/*display: block;*/
+}
+h1,em,ins,sup,li,dl,abbr,nav,h2,ins,select,footer{
+	background-color: red;
+	width: auto;
+	height: auto;
+}
+.sendmail{
+	background-color: red;
+	width: 500px;
+	height: auto;
+}
+header,p,a,button,img,input,sub,fieldset{
+	height: auto;
+	width: 100px;
+	background-color: orange;
+
+}
+span{
+	background-color: green;
+	height: 100px;
+}
+h5,q,del,aside,figure,input,h3,small,h6,li,hr,p,div,input,table{
+	width: 150px;
+	padding: 100px;
+	background-color: green;
+}
+
+dt,input,dd,textarea,input,article,label{
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+}
+
+figcaption{
+	margin-top: 50px; 
+}
