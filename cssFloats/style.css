@@ -29,15 +29,56 @@
 	background-color: yellow;
 	width: 650px;
 	float: left;
+	padding: 20px;
 }
-.footer{
+
+.article-image{
+	float: left;
+	width: 300px;
 	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+p{
+	margin-bottom: 20px;
+}
+
+.footer{
+	/*height: 200px;*/
 	background-color: lightblue;
 	clear: both;
+	/*border:2px solid red;*/
+
 }
 .clear:after{
 	content: "";
 	clear: both;
 	display: block;
 
+}
+.column{
+	background:#B2D6FF;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+}
+
+.avatar{
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+	background:url(avatar.jpg);
+	background-position: center;
+	background-size: 60px;
+}
+.username{
+	margin-top: 30px;
+}
+.comment{
+	margin: 10px;
+	overflow: hidden;
 }
