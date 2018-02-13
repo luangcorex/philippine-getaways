@@ -51,7 +51,7 @@ p{
 	width: 700px;
 	height: auto;
 	padding: 10px;
-
+	overflow: hidden;
 }
 .greybox{
 	background-color: grey;
@@ -68,4 +68,126 @@ h2{
 
 p{
 	text-align: left;
+}
+
+.container3{
+	background-color: black;
+	height: 700px;
+	height: auto;
+	padding: 10px;
+}
+
+.greybox1{
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50%;
+	float: left;
+
+}
+p{
+	margin-bottom: 10px;
+}
+.container4{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	
+
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.greybox2{
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	float: left;
+}
+.right{
+	width: 92%;
+	display: inline;
+}
+
+.left{
+	width: 7%;
+}
+
+br{
+	margin-bottom: 10px;
+}
+textarea{
+	width: 90%;
+}
+input{
+	float: right;
+	padding: 5px
+
+}
+
+.container5{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+.greybox3{
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	float: left;
+}
+.left1{
+	width: 7%;
+	float: left;
+
+}
+.right1{
+	width: 91%;
+	float: left;
+	margin-left: 10px;
+}
+h1{
+	color: white;
+
+}
+
+.reply-left{
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	float: left;	
+}
+
+.reply-right{
+	width: 91%;
+	margin-left: 10px;
+}
+.greybox4{
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	float: left;
+}
+.reply{
+	float: left;
+	position: relative;
+	left: 60px;
+	overflow: hidden;
+	border-left: 1px solid white;
+
+}
+h3{
+	color: white;
 }
