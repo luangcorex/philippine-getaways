@@ -1,0 +1,217 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 960px;   /*so that layout won't expand extensively in very wide displays*/
+	margin: auto;
+}
+.header{
+	min-height: 150px;
+	background-color: darkviolet;
+}
+
+.main{
+	min-height: 700px;
+	background-color: lightgray;
+}
+
+.footer{
+	height: 100px;
+	background-color: skyblue;
+}
+
+.row:after{ /*prevents from collapsing of the container and spilling of contents*/
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.grid> .clm{
+	height: 1060px;
+	width: 7.33%;  /*100% divided 12 minus 1% for each horizontal margin*/
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	background: #efefef;
+	box-sizing: border-box;  /*so that overall width won't exceed 100%*/
+	opacity: 0.4;
+	padding-top: 530px; /*1060 divided 2. This centers the column labels vertically*/
+	text-align: center;
+	float: left;
+	position: relative;
+	top: -960px; /*whole height of content area*/
+}
+
+.left{
+	height: 700px;
+}
+
+.right{
+	height: 700px;
+}
+
+[class*="col"] {
+	border: 5px solid black;
+	float: left; /*let column sit side by side*/
+	box-sizing: border-box;
+}
+
+
+
+
+.col-lg-1 {
+	width: 8.33%;  /*100 divided by 12*/
+}
+
+.col-lg-2 {
+	width: 16.66%; /*100 divided by 12 times 2*/
+}
+
+.col-lg-3 {
+	width: 25%;  /*100% divided by 12 times 3*/
+}
+
+.col-lg-4 {
+	width: 33.33%; /*100 divided by 12 times 4*/
+}
+
+.col-lg-5 {
+	width: 41.66%; /*100 divided by 12 times 5*/
+}
+
+.col-lg-6 { 
+	width: 50%; /*100 divided by 12 times 6*/
+}
+
+.col-lg-7 { 
+	width: 58.33%; /*100 divided by 12 times 7*/
+}
+
+.col-lg-8 { 
+	width: 66.66%; /*100 divided by 12 times 8*/
+}
+
+.col-lg-9 { 
+	width: 75%; /*100 divided by 12 times 9*/
+}
+
+
+.col-lg-10 { 
+	width: 83.33%; /*100 divided by 12 times 10*/
+}
+
+.col-lg-11 { 
+	width: 91.66%; /*100 divided by 12 times 11*/
+}
+
+.col-lg-12 { 
+	width: 100%; /*100 divided by 12 times 12*/
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.col-md-1 {
+	width: 8.33%;  /*100 divided by 12*/
+}
+
+.col-md-2 {
+	width: 16.66%; /*100 divided by 12 times 2*/
+}
+
+.col-md-3 {
+	width: 25%;  /*100% divided by 12 times 3*/
+}
+
+.col-md-4 {
+	width: 33.33%; /*100 divided by 12 times 4*/
+}
+
+.col-md-5 {
+	width: 41.66%; /*100 divided by 12 times 5*/
+}
+
+.col-md-6 { 
+	width: 50%; /*100 divided by 12 times 6*/
+}
+
+.col-md-7 { 
+	width: 58.33%; /*100 divided by 12 times 7*/
+}
+
+.col-md-8 { 
+	width: 66.66%; /*100 divided by 12 times 8*/
+}
+
+.col-md-9 { 
+	width: 75%; /*100 divided by 12 times 9*/
+}
+
+
+.col-md-10 { 
+	width: 83.33%; /*100 divided by 12 times 10*/
+}
+
+.col-md-11 { 
+	width: 91.66%; /*100 divided by 12 times 11*/
+}
+
+.col-md-12 { 
+	width: 100%; /*100 divided by 12 times 12*/
+}
+}
+
+@media only screen and (max-width: 450px){
+
+.col-sm-1 {
+	width: 8.33%;  /*100 divided by 12*/
+}
+
+.col-sm-2 {
+	width: 16.66%; /*100 divided by 12 times 2*/
+}
+
+.col-sm-3 {
+	width: 25%;  /*100% divided by 12 times 3*/
+}
+
+.col-sm-4 {
+	width: 33.33%; /*100 divided by 12 times 4*/
+}
+
+.col-sm-5 {
+	width: 41.66%; /*100 divided by 12 times 5*/
+}
+
+.col-sm-6 { 
+	width: 50%; /*100 divided by 12 times 6*/
+}
+
+.col-sm-7 { 
+	width: 58.33%; /*100 divided by 12 times 7*/
+}
+
+.col-sm-8 { 
+	width: 66.66%; /*100 divided by 12 times 8*/
+}
+
+.col-sm-9 { 
+	width: 75%; /*100 divided by 12 times 9*/
+}
+
+
+.col-sm-10 { 
+	width: 83.33%; /*100 divided by 12 times 10*/
+}
+
+.col-sm-11 { 
+	width: 91.66%; /*100 divided by 12 times 11*/
+}
+
+.col-sm-12 { 
+	width: 100%; /*100 divided by 12 times 12*/
+}
+}
