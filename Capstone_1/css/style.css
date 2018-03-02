@@ -1,13 +1,17 @@
 *{
+ box-sizing: border-box;
+}
+
+body html{
+  overflow-x:hidden;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
-body{
-  overflow-x:hidden;
-}
+/*Welcome Page*/
 
+/*Settings for video*/
 #fullscreenvideo{
   position:absolute;
   top:0;
@@ -20,48 +24,134 @@ body{
 #fullscreenvideo video{
   min-height:100%;
   min-width:100%;
+  position: center;
+ /*set bg pic for other platforms*/
 }
+ /*end of video settings*/
+
 
 #home{
   height:100vh;
   display:flex;
   align-items:center;
-  color:#fff;
-}
-#container{
-  max-width:960px;
-  padding-left:1rem;
-  padding-right:1rem;
-  margin:auto;
-  text-align:center;
+
 }
 
-#home-overlay {
+#home-overlay{
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    position: fixed;
-    top: 150px;
-    height: 70%;
-    width: 70%;
-    margin: 50px;
-    padding: 20px;
+    position: absolute;
+    top:350px;
+    right: 0;
+    margin: 10px;
     opacity: .85;
     box-shadow: 20px 10px 20px black;
-      
-    }
-
-    #home-overlay p{
-      text-align: justify;
-      font-family: 
-    }
-
-    /*CSS FOR INDEX2*/
-
-#menubar{
-  height: 100vh;
-  background-color: black;
 }
 
-#menuitem{
- 
+#triangle-down {
+  position: relative;
+  right: 0;
+  width: 0;   /*shape*/
+  height: 0;
+  border-right: 150px solid transparent;
+  border-top: 150px solid #c75b5b;
+  float: left;
+   
+}
+
+#home-overlay p{
+
+      text-align: right;
+      padding: 10px;
+      margin-top: 25px;
+      margin-right: 10px; 
+}
+
+/*CSS FOR INDEX2*/
+
+#custom-nav {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+
+}
+
+#custom-nav ul li a{
+  color: white;
+}
+
+#home-thumbnail {
+  margin-top: 10px;
+  background: url('images/Kalanggaman/k1.jpg');
+  
+}
+
+#home-thumbnail a{
+  text-decoration: none;
+
+}
+
+/*CSS for Tour and packages*/
+
+#tour-container{
+  margin-top: 100px;
+}
+
+.bgimgtour{
+  background-image: url("images/biri/biri.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+ }
+
+#tour-thumbnail1 img{
+  margin-top: 5px;
+}
+
+#tour-thumbnail2 img{
+  margin-top: 5px;
+}
+
+/*CSS for Gallery*/
+#gallery-container{
+  margin-top: 50px;
+
+}
+
+/*#gallery-height1 img{
+  height: 75vh;
+}
+
+#gallery-height2 img{
+  height: 50vh;
+}
+
+#gallery-height3 img{
+  height: 50vh;
+}
+
+*/
+
+.no-gutters {
+padding-top: 0;
+padding-bottom: 0;
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+div[class*='col-']{
+  padding-left: 0;
+  padding-right: 0;
+  
+  img{
+    .img-responsive;
+  }
+}
+}
+.container > .no-gutters {
+  margin-left:-15px; // Offset for when nested in a .container
+  margin-right:-15px; // Offset for when nested in a .container
 }

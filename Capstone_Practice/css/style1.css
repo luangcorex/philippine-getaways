@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x:hidden;
+  
+}
+
+/*Welcome Page*/
+
+/*Settings for video*/
+#fullscreenvideo{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+#fullscreenvideo video{
+  min-height:100%;
+  min-width:100%;
+  position: center;
+ /*set bg pic for other platforms*/
+}
+ /*end of video settings*/
+
+
+#home{
+  height:100vh;
+  display:flex;
+  align-items:center;
+
+}
+
+#home-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    position: absolute;
+    top:350px;
+    right: 0;
+    margin: 10px;
+    opacity: .85;
+    box-shadow: 20px 10px 20px black;
+}
+
+#triangle-down {
+  position: relative;
+  right: 0;
+  width: 0;   /*shape*/
+  height: 0;
+  border-right: 150px solid transparent;
+  border-top: 150px solid #c75b5b;
+  float: left;
+   
+}
+
+#home-overlay p{
+
+      text-align: right;
+      padding: 10px;
+      margin-top: 25px;
+      margin-right: 10px; 
+}
+
+/*CSS FOR INDEX2*/
+
+#custom-nav {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+
+}
+
+#custom-nav ul li a{
+  color: white;
+}
+
+#carousel-img{
+  /*height:100px;*/
+  width:100%;
+}
+
+#home-thumbnail{
+  margin-top: 10px;
+  background: url('images/Kalanggaman/k1.jpg');
+  
+}
+
+#home-thumbnail a{
+  text-decoration: none;
+
+}
+
+/*CSS for Tour and packages*/
+/*#container-bg{
+  background-color: black;
+}*/
+
+
+#tour-container{
+  margin-top: 100px;
+}
+
