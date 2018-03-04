@@ -1,0 +1,70 @@
+/* Your custom styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*CSS for welcome.html*/
+
+/*video background*/
+
+ .video-fluid {
+    width: 100%;
+    height: auto;
+    /*opacity: .58;*/
+}
+
+/*welcomepage overlay*/
+#welcome-page-overlay {
+	background: rgba(128,128,128,.4);
+    color: #f1f1f1;
+    position: absolute;
+    top:0;
+    left: 0
+    height: auto;
+    width: 100%;
+    padding: 20px;*/
+}
+
+ul > li {
+	list-style: none;
+}
+
+/*CSS for home.html*/
+#logo {
+	height: 65px;
+	width: 65px;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+#social a{
+	margin: 10px;
+}
+
+#social input{
+	margin: 10px;
+}
+
+#navfontstyles {
+}
+
+
+#home-overlay {
+	background: rgba(128,128,128,.4);
+    color: #f1f1f1;
+    position: absolute;
+    top:0;
+    left: 0
+    height: auto;
+    width: 100%;
+    padding: 20px;
+
+}
+#home-caption {
+	margin-top: 80px;
+}
+
+/*Gallery CSS*/
