@@ -14,6 +14,7 @@
     width: 100%;
     height: auto;
     /*opacity: .58;*/
+
 }
 
 /*welcomepage overlay*/
@@ -68,3 +69,37 @@ ul > li {
 }
 
 /*Gallery CSS*/
+
+/*TOUR CSS*/
+
+#tour-margin {
+    margin-top: 150px;
+    background-image: url("img/gallery/palawan/p1.jpg");
+    background-position: cover;
+}
+
+#tournav-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    opacity: .3;
+}
+
+
+
+
+/*CSS for reservenow.html*/
+
+#reserve-now{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    height: auto;
+
+}
+
+#terms {
+    height: auto;
+    overflow: scroll;
+}
