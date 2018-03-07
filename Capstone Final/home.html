@@ -22,6 +22,8 @@
     <!-- my custom css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bowlby+One+SC|Dancing+Script|Satisfy|Vollkorn" rel="stylesheet">
 
 </head>
 
@@ -30,10 +32,9 @@
 <!-- Navigation Bar -->
 
 <nav class="navbar navbar-expand-lg navbar-dark light-blue darken-4 fixed-top scrolling-navbar">
-        <div class="container">
-            
+        <div class="container" >
                 <img src="img/logo/travel.png" id="logo">
-                <a class="navbar-brand" href="welcome.html"><span>Philippine Gateaways</span>
+                <a class="navbar-brand" id="navlogofontstyle" href="welcome.html"><span>Philippine Gateaways</span>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,26 +58,24 @@
                             <a class="nav-link" href="reservenow.html">Reserve Now</a>
                         </li>
 
-                        <li class="nav-item btn-group">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us 
+                        <!-- <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us
                             </a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="contact-us.html">Contact Us</a>
                                 <a class="dropdown-item" href="loc.html">Location</a>
                            </div>
-                        </li>
+                        </li> -->
                     </ul>
                     <form class="form-inline" id="social">
+ 
+                        <a target="_blank" href="https://www.facebook.com"><img src="img/logo/facebook.png"></a>
 
-                         <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
-
-                        <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-
-                        <a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.twitter.com"><img src="img/logo/twitter.png"></a>
                       
-                        <a target="_blank" href="https://plus.google.com/discover"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://plus.google.com/discover"><img src="img/logo/googleplus.png"></a>
 
-                        <a target="_blank" href="https://instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://instagram.com"><img src="img/logo/insta.png"></a>
    
                        
                     </form>
@@ -118,7 +117,7 @@
                             </li>
                             
                             <li>
-                             <a href="tour.html" class="btn btn-outline-white btn-lg" rel="nofollow">Reserve Now</a>
+                             <a href="tour.html" class="btn btn-outline-white btn-lg btn-sm" rel="nofollow">Reserve Now</a>
                              
                             </li>
                          </ul>
@@ -148,7 +147,7 @@
                             </li>
                             
                             <li>
-                             <a href="gallery.html" class="btn btn-outline-white btn-lg" rel="nofollow">Visit Gallery</a>
+                             <a href="gallery.html" class="btn btn-outline-white btn-lg btn-sm" rel="nofollow">Visit Gallery</a>
                              
                             </li>
                          </ul>
@@ -179,7 +178,7 @@
                             </li>
                             
                             <li>
-                             <a href="reservenow.html" class="btn btn-outline-white btn-lg" rel="nofollow">Contact Us</a>
+                             <a href="reservenow.html" class="btn btn-outline-white btn-lg btn-sm" rel="nofollow">Contact Us</a>
                              
                             </li>
                          </ul>
@@ -207,7 +206,7 @@
  
 <!-- Home Testimonials -->
 
-<section class="section pb-3 text-center">
+<section class="section pb-3 text-center" id="testi-head">
 
     <!--Section heading-->
     <h1 class="section-heading h1 pt-4">Testimonials</h1>
@@ -218,25 +217,25 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-4 mb-4 col-12">
 
             <!--Card-->
-            <div class="card testimonial-card">
-
-                <!--Background color-->
-                <div class="card-up teal lighten-2">
-                </div>
+            <div class="card mdb-color darken-3">
+            
+              
+               <div class="card-up "></div>
 
                 <!--Avatar-->
-                <div class="avatar mx-auto white"><img src="img/avatar/avatar3.png" alt="avatar mx-auto white" class="rounded-circle img-fluid">
+                <div class="avatar mx-auto ">
+                <img src="img/avatar/avatar3.png" alt="avatar mx-auto" class="rounded-circle img-fluid">
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="testi-fontstyle">
                     <!--Name-->
-                    <h4 class="card-title mt-1">John Doe</h4>
+                    <h2 class="card-title mt-1">John Doe </h2>
                     <hr>
                     <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.<i class="fa fa-quote-right"></i></p>
+                    <p class=""><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <i class="fa fa-quote-right"></i></p>
                 </div>
 
             </div>
@@ -246,25 +245,25 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-4 mb-4 col-12">
 
             <!--Card-->
-            <div class="card testimonial-card">
-
-                <!--Background color-->
-                <div class="card-up blue lighten-2">
-                </div>
+            <div class="card mdb-color darken-3">
+            
+              
+               <div class="card-up "></div>
 
                 <!--Avatar-->
-                <div class="avatar mx-auto white"><img src="img/avatar/avatar3.png" alt="avatar mx-auto white"  class="rounded-circle img-fluid">
+                <div class="avatar mx-auto ">
+                <img src="img/avatar/avatar3.png" alt="avatar mx-auto" class="rounded-circle img-fluid">
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="testi-fontstyle">
                     <!--Name-->
-                    <h4 class="card-title mt-1">Johnny Doe</h4>
+                    <h2 class="card-title mt-1">John Doe </h2>
                     <hr>
                     <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.<i class="fa fa-quote-right"></i></p>
+                    <p class=""><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <i class="fa fa-quote-right"></i></p>
                 </div>
 
             </div>
@@ -274,90 +273,43 @@
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-14 mb-4 col-12">
 
             <!--Card-->
-            <div class="card testimonial-card">
-
-                <!--Background color-->
-                <div class="card-up deep-purple lighten-2"></div>
+            <div class="card mdb-color darken-3">
+            
+              
+               <div class="card-up "></div>
 
                 <!--Avatar-->
-                <div class="avatar mx-auto white"><img src="img/avatar/avatar3.png" alt="avatar mx-auto white"  class="rounded-circle img-fluid">
+                <div class="avatar mx-auto ">
+                <img src="img/avatar/avatar3.png" alt="avatar mx-auto" class="rounded-circle img-fluid">
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="testi-fontstyle">
                     <!--Name-->
-                    <h4 class="card-title mt-1">John Dy</h4>
+                    <h2 class="card-title mt-1">John Doe </h2>
                     <hr>
                     <!--Quotation-->
-                    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.<i class="fa fa-quote-right"></i></p>
+                    <p class=""><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. <i class="fa fa-quote-right"></i></p>
                 </div>
 
             </div>
-            <!--Card-->
-
         </div>
-        <!--Grid column-->
-
     </div>
 
 </section>
 <!-- End of Testimonial section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Footer-->
-      <!-- <footer class="page-footer font-small blue pt-4 mt-4"> -->
-      
-          <!--Footer Links-->
-          <!-- <div class="container-fluid text-center text-md-left">
-              <div class="row"> -->
-      
-                  <!--First column-->
-                  <!-- <div class="col-md-6">
-                      <h5 class="text-uppercase">Footer Content</h5>
-                      <p>Here you can use rows and columns here to organize your footer content.</p>
-                  </div> -->
-                  <!--/.First column-->
-      
-                  <!--Second column-->
-                  <!-- div class="col-md-6">
-                      <h5 class="text-uppercase">Links</h5>
-                      <ul class="list-unstyled">
-                          <li><a href="#!">Link 1</a></li>
-                          <li><a href="#!">Link 2</a></li>
-                          <li><a href="#!">Link 3</a></li>
-                          <li><a href="#!">Link 4</a></li>
-                      </ul>
-                  </div> -->
-                  <!--/.Second column-->
-              <!-- </div> -->
-          <!-- </div> -->
-          <!--/.Footer Links-->
-      
-          <!--Copyright Footer-->
-          <div class="footer-copyright py-3 text-center light-blue darken-4">
+       <!--Copyright Footer-->
+    <footer class="page-footer">
+          <div class="footer-copyright py-3 text-center light-blue darken-4" id="sticky-footer">
               <div class="container-fluid">
-                  © 2018 Copyright  | Rex Luangco 
+                  © 2018 Copyright  | Rex Luangco  | <a target="_blank" href="export.html">Terms and Conditions </a>
       
               </div>
           </div>
-          <!--/.Copyright-->
-      
-      <!-- </footer> -->
-      <!--/.Footer-->
+    </footer>
                       
 
     <!-- SCRIPTS -->
@@ -370,7 +322,6 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <script type="text/javascript" src="js/myscript.js"></script>
 </body>
 
 </html>
